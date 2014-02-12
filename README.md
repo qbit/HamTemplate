@@ -18,30 +18,30 @@ Almost all of the html you will need to know will fall into one or two categorie
 
 **Example:**
 
-```
-<ul class="nav bs-sidenav" id="navbar">
-  <li>
-    <a href="#item1">Item 1</a>
-      <ul class="nav">
-        <li><a href="#sub1">Sub 1</a></li>
-      </ul>
-  </li>
-</ul>
-```
-
+ ```
+ <ul class="nav bs-sidenav" id="navbar">
+   <li>
+     <a href="#item1">Item 1</a>
+       <ul class="nav">
+         <li><a href="#sub1">Sub 1</a></li>
+       </ul>
+   </li>
+ </ul>
+ ```
+ 
 2. Adding dynamic callsign lookup.
 
-``
+ ``
 <span class="callsign">KD0WKW</span>
 ``
 
 3. Linking to another page (.md file you created).
 
-``
-<a href="#pagename">Page Name</a>
-``
-Replace "pagename" with the name you gave the `.md` file and "Page Name" with
-the name to be displayed on the web site.
+ ``
+ <a href="#pagename">Page Name</a>
+ ``
+ Replace "pagename" with the name you gave the `.md` file and "Page Name" with
+ the name to be displayed on the web site.
 
 ## How do I use it? ##
 
