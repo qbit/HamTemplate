@@ -12,7 +12,8 @@ This is a drop in template that allows for quick setup of not-ugly pages.
 
 You need to know **very** basic HTML to use this.
 
-Almost all of the html you will need to know will fall into one or two categories.
+Almost all of the html you will need to know will fall into one of the below 
+categories.
 
 1. Adding Items to the sidebar.
 
@@ -40,7 +41,7 @@ Almost all of the html you will need to know will fall into one or two categorie
  ``
  <a href="#pagename">Page Name</a>
  ``
- Replace "pagename" with the name you gave the `.md` file and "Page Name" with
+ Replace `pagename` with the name you gave the `.md` file and "Page Name" with
  the name to be displayed on the web site.
 
 ## How do I use it? ##
