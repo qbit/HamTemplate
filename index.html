@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bs.css" rel="stylesheet">
+	<style>
+		.popover {
+			width: 100%;
+			max-width: 410px !important;
+		}
+		.callsign {
+			color: #428bca;
+			cursor: pointer;
+		}
+		.bs-sidenav {
+			padding-top:40px;
+		}
+		.bs-sidenav ul {
+			padding-left: 30px;
+		}
+	</style>
+	<link href="" rel="stylesheet">
+
+</head>
+<body data-spy="scroll" data-target="#navbar">
+	<div id="content" class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="hidden-print affix-top" role="complementary">
+					<ul class="nav bs-sidenav" id="navbar">
+						<li>
+							<a href="#item1">Item 1</a>
+							<ul class="nav">
+								<li><a href="#sub1">Sub 1</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#item2">Item 2</a>
+						</li>
+						<li>
+							<a href="#item3">Item 3</a>
+							<ul class="nav">
+								<li><a href="#sub2">Sub 2</a></li>
+								<li><a href="#sub3">Sub 3</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#item4">Item 4</a>
+							<a href="#guide">Markdown Guide</a>
+							<a href="#call">Callsign Example</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9" id="main" role="main">
+			</div>
+	</div>
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/marked/lib/marked.js"></script>
+	<script src="javascript/main.js"></script>
+	<script src="bower_components/callsign.js/callsign.js"></script>
+	<script>
+		var callmgr = new Callsign();
+		$('#navbar a').click(function() {
+			var a = $(this).prop('href').split('/');
+			a = a[a.length -1];
+			loadPage(a);
+		});
+		loadPage();
+	</script>
+</body>
+</html>
+

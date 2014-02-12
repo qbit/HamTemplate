@@ -1,0 +1,25 @@
+{
+  "name": "HamTemplate",
+  "version": "0.0.1",
+  "authors": [
+    "Aaron Bieber <deftly@gmail.com>"
+  ],
+  "description": "Ham Template for better looking sites",
+  "main": "index.html",
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "html5shiv": "~3.6.2",
+    "respond": "~1.2.0",
+    "marked": "~0.2.9",
+    "callsign.js": "*"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="author" content="Aaron Bieber <qbit@deftly.net>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>callsign test</title>
+
+</head>
+<body>
+	<script src="../callsign.js"></script>
+	<script>
+		var cm = new Callsign({
+			// url: 'http://awesome/%S?callback=%C',
+		});
+		cm.get('kd0wkw', function(data) {
+			document.body.innerHTML = cm.pretty(data).join('');
+		});
+	</script>
+</body>
+</html>
+

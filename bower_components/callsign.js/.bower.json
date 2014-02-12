@@ -1,0 +1,14 @@
+{
+  "name": "callsign.js",
+  "homepage": "https://github.com/qbit/callsign.js",
+  "_release": "ab61feac93",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ab61feac93fd59c71bc25c3c3128f3f3e19f0f11"
+  },
+  "_source": "git://github.com/qbit/callsign.js.git",
+  "_target": "*",
+  "_originalSource": "callsign.js",
+  "_direct": true
+}
