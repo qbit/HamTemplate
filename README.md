@@ -18,7 +18,7 @@ Almost all of the html you will need to know will fall into one or two categorie
 
 **Example:**
 
-``
+```
 <ul class="nav bs-sidenav" id="navbar">
   <li>
     <a href="#item1">Item 1</a>
@@ -27,7 +27,7 @@ Almost all of the html you will need to know will fall into one or two categorie
       </ul>
   </li>
 </ul>
-``
+```
 
 2. Adding dynamic callsign lookup.
 
