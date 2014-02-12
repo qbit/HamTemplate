@@ -17,6 +17,7 @@ Almost all of the html you will need to know will fall into one or two categorie
 1. Adding Items to the sidebar.
 
 **Example:**
+
 ``
 <ul class="nav bs-sidenav" id="navbar">
   <li>
