@@ -12,7 +12,7 @@ This is a drop in template that allows for quick setup of not-ugly pages.
 
 You need to know **very** basic HTML to use this.
 
-Almost all of the html you will need to know will fall into one of the below 
+Almost all of the html you will need to know will fall into one of the below
 categories.
 
 1. Adding Items to the sidebar.
@@ -29,7 +29,7 @@ categories.
    </li>
  </ul>
  ```
- 
+
 2. Adding dynamic callsign lookup.
 
  ``

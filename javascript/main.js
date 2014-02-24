@@ -10,7 +10,7 @@ function loadPage(page) {
 		if (page) {
 			page = page.replace('#','') + '.md';
 		} else {
-			page = 'club.md';
+			page = default_page;
 		}
 	}
 
@@ -26,13 +26,13 @@ function loadPage(page) {
 			}
 		});
 		$('table').addClass('table table-condensed table-hover table-striped table-bordered');
-		$('.callsign').click(function() { 
-			var self = this; 
+		$('.callsign').click(function() {
+			var self = this;
 			function toggle() {
 				$(self).popover('toggle');
 			}
 
-			callmgr.get($(this).text(), function(d) { 
+			callmgr.get($(this).text(), function(d) {
 				var title = d.callsign;
 
 				$(self).prop('data-toggle', 'popover');
@@ -45,7 +45,7 @@ function loadPage(page) {
 					content: callmgr.pretty(d),
 					selector: 'popover',
 					html: true
-				}); 
+				});
 
 				$(self).popover('show');
 
@@ -53,8 +53,8 @@ function loadPage(page) {
 					$('body').unbind('click');
 					toggle();
 				});
-			}); 
+			});
 		});
-	}); 
+	});
 
 }
